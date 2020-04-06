@@ -2,6 +2,7 @@
 #include"BaseObject.h"
 
 BaseObject g_background;
+const int help = 10;
 void close() {
     g_background.Free();
     SDL_DestroyRenderer(g_screen);
