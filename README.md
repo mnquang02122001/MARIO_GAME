@@ -1,3 +1,3 @@
 # Project-Game
 
-Game bắn súng 
+load hình ảnh background của game
