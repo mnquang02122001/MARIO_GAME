@@ -1,5 +1,6 @@
 ﻿  BaseObject.cpp
   CommonFunc.cpp
+  Game_map.cpp
   main.cpp
   Generating Code...
   Gameproject.vcxproj -> C:\Users\Mai Nhat Quang\Documents\cpp\VS2020game\Gameproject\Debug\Gameproject.exe

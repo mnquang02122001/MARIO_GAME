@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Lib">
+      <UniqueIdentifier>{f1801ebe-265e-4e38-8b70-7e80d0c2a911}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,13 +27,19 @@
     <ClCompile Include="BaseObject.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Game_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CommonFunc.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="BaseObject.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunc.h">
+      <Filter>Header Files\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_map.h">
+      <Filter>Header Files\Lib</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
